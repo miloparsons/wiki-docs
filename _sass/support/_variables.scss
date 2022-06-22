@@ -2,6 +2,7 @@
 // Typography
 //
 
+$header-font-family: 'Martel Sans', sans-serif;
 $body-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
   Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace !default;
@@ -9,7 +10,7 @@ $root-font-size: 16px !default; // Base font-size for rems
 $body-line-height: 1.4 !default;
 $content-line-height: 1.6 !default;
 $body-heading-line-height: 1.25 !default;
-$header-font-family: 'Martel Sans', sans-serif;
+
 
 //
 // Font size
