@@ -25,6 +25,10 @@ body {
   background-color: $body-background-color;
 }
 
+pre {
+  white-space: pre-wrap;
+}
+
 ol,
 ul,
 dl,
