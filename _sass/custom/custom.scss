@@ -2,13 +2,14 @@ $color_1: #FFFFFF;
 $background-color_1: #DC3545;
 
 .warning {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  justify-content: space-between;
   background-color: $background-color_1;
   color: $color_1;
-  position: sticky;
-  top: 0;
   font-weight: bold;
-  height: 50px;
   text-align: center;
   vertical-align: middle;
-  line-height: 50px;
 }
