@@ -80,7 +80,6 @@ layout: table_wrappers
           <div id="search-results" class="search-results"></div>
         </div>
       {% endif %}
-      <div>{% include head.html %}</div>
       {% if site.aux_links %}
         <nav aria-label="Auxiliary" class="aux-nav">
           <ul class="aux-nav-list">
@@ -99,6 +98,7 @@ layout: table_wrappers
         </nav>
       {% endif %}
     </div>
+    <div>{% include head.html %}</div>
     <div id="main-content-wrap" class="main-content-wrap">
       {% unless page.url == "/" %}
         {% if page.parent %}
