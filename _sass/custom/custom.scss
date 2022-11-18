@@ -2,11 +2,8 @@ $color_1: #FFFFFF;
 $background-color_1: #DC3545;
 
 .warning {
-  display: flex;
-  width: 100%;
-  position: fixed;
-  left: 0;
-  justify-content: space-between;
+  position: sticky;
+  top: 0;
   background-color: $background-color_1;
   color: $color_1;
   font-weight: bold;
