@@ -98,7 +98,9 @@ layout: table_wrappers
         </nav>
       {% endif %}
     </div>
-    <div>{% include head.html %}</div>
+    {% if site.cstmvar != '' %}
+    {% include head.html %}
+    {% endif %}
     <div id="main-content-wrap" class="main-content-wrap">
       {% unless page.url == "/" %}
         {% if page.parent %}
