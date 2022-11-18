@@ -1,5 +1,7 @@
 <html>
-<div class="warning">
-    {{ site.cstmvar }}
-</div>
+{% if site.cstmvar != '' %}
+    <div class="warning">
+        {{ site.cstmvar }}
+    </div>
+{% endif %}
 </html>
